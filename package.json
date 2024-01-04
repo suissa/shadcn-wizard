@@ -52,7 +52,8 @@
     "pretest": "bun run compile && bun run lint",
     "build": "bun out/bundler.js",
     "lint": "eslint src --ext ts",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.6",
